@@ -1,9 +1,58 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "avatar": "https://randomuser.me/api/portraits/men/1.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "avatar": "https://randomuser.me/api/portraits/women/2.jpg"
+    },
+    {
+      "name": "Alicia Johnson",
+      "email": "alice.johnson@example.com",
+      "avatar": "https://randomuser.me/api/portraits/women/3.jpg",
+      "id": "3"
+    },
+    {
+      "name": "Bob Patiño",
+      "email": "bob.brown@example.com",
+      "avatar": "https://randomuser.me/api/portraits/men/4.jpg",
+      "id": "4"
+    },
+    {
+      "name": "Carola Davis",
+      "email": "carol.davis@example.com",
+      "avatar": "https://randomuser.me/api/portraits/women/5.jpg",
+      "id": "5"
+    },
+    {
+      "id": "6",
+      "name": "Pat Armstrong",
+      "email": "Kiara.Hoeger@hotmail.com",
+      "avatar": "https://randomuser.me/api/portraits/men/18.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Mr. Ellis Glover",
+      "email": "Arden75@hotmail.com",
+      "avatar": "https://randomuser.me/api/portraits/men/14.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Billie Von",
+      "email": "Johanna.Quigley@yahoo.com",
+      "avatar": "https://randomuser.me/api/portraits/men/13.jpg"
+    },
+    {
+      "name": "Juan Arias",
+      "email": "juanarias@gmail.com",
+      "avatar": "https://randomuser.me/api/portraits/men/9.jpg",
+      "id": "7be2"
+    }
+  ]
 }
